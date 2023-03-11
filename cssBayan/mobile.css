@@ -15,4 +15,25 @@
     padding: 22px 0;
     height: 65px;
   }
+
+  .plus {
+    width: 20px;
+    height: 20px;
+  }
+  .plus:hover {
+    width: 20px;
+    height: 20px;
+  }
+  .plus:focus {
+    width: 20px;
+    height: 20px;
+  }
+
+  .item:hover {
+    height: 155px;
+  }
+
+  .item:focus {
+    height: 200px;
+  }
 }
