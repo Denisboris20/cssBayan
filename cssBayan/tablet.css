@@ -1,0 +1,14 @@
+@media (max-width: 820px) {
+  .item {
+    padding: 22px 0;
+    height: 65px;
+  }
+
+  .item:hover {
+    height: 155px;
+  }
+
+  .item:focus {
+    height: 500px;
+  }
+}
