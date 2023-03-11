@@ -1,0 +1,18 @@
+@media (max-width: 450px) {
+  .mem {
+    width: 195px;
+    height: 183px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+
+  ul {
+    font-size: 16px;
+  }
+
+  .item {
+    padding: 22px 0;
+    height: 65px;
+  }
+}
