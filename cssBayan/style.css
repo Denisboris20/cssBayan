@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+
+body {
+  background-color: #ffdab9;
+  width: 60%;
+  margin: auto;
+  padding-top: 4%;
+  font-size: 20px;
+}
+h1 {
+  font-size: 45px;
+  border-bottom: 2px solid #808080;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #008080;
+  transition: 0.3s;
+}
+ul:hover {
+  color: #000;
+}
+.item {
+  height: 48px;
+  padding: 10px 0 25px 0;
+  border-bottom: 2px solid #808080;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.item:hover {
+  height: 600px;
+}
+.item:hover .mem {
+  transform: scale(1);
+}
+.mem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item:focus .mem {
+  transform: scale(1);
+}
+.item:focus {
+  height: 436px;
+  color: #000;
+  outline: none;
+}
+
+.item:active {
+  color: #008080;
+  opacity: 0.5;
+}
+.plus {
+  width: 50px;
+  height: 50px;
+  background-image: url(./img/icons8-add-new-50.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: 0.3s;
+}
+ul:hover .plus {
+  opacity: 1;
+}
+
+.content {
+  margin: 0 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul:hover .item:focus .plus {
+  background-image: url(./img/cross_114275.png);
+}
+.item:hover .plus {
+  background-image: url(./img/cross_114275.png);
+}
+.mem {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto 0 auto;
+  transform: scale(0);
+  transition: 0.3s;
+}

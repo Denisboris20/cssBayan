@@ -1,0 +1,41 @@
+@media (max-width: 450px) {
+  .mem {
+    width: 195px;
+    height: 183px;
+  }
+  h1 {
+    font-size: 22px;
+    width: 80%;
+  }
+
+  ul {
+    font-size: 16px;
+  }
+
+  .item {
+    padding: 22px 0;
+    height: 65px;
+    width: 80%;
+  }
+
+  .plus {
+    width: 20px;
+    height: 20px;
+  }
+  .plus:hover {
+    width: 20px;
+    height: 20px;
+  }
+  .plus:focus {
+    width: 20px;
+    height: 20px;
+  }
+
+  .item:hover {
+    height: 155px;
+  }
+
+  .item:focus {
+    height: 222px;
+  }
+}
